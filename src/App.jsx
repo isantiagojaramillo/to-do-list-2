@@ -26,7 +26,7 @@ const App = () => {
     <div className='container'>
       <Header />
       <FormTasks tasks={tasks} changeTasks={changeTasks} />
-      <TaskList tasks={tasks} />
+      <TaskList tasks={tasks} changeTasks={changeTasks} />
     </div>
   ); 
 }
